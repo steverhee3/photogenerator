@@ -1,4 +1,9 @@
+var scrollEventHandler = function()
+{
+  window.scroll(0, window.pageYOffset)
+}
 
+window.addEventListener("scroll", scrollEventHandler, false);
 
 /*newstuffhere*/
 const container = document.querySelector('.container');
